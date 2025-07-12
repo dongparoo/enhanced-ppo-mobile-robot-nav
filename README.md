@@ -29,6 +29,8 @@ This repo shows a carefully engineered recipe that overcomes those limitations *
 ---
 
 ## Code layout
+
+```text
 enhanced-ppo-mobile-robot-nav/
 ├─ goal_nav_env.py # Isaac Sim + ROS 2 environment wrapper
 ├─ model.py # Actor / Critic network definitions
@@ -37,6 +39,7 @@ enhanced-ppo-mobile-robot-nav/
 ├─ train.py # From-scratch training script
 ├─ train_continue.py # Resume-training utility
 └─ utils.py # Logging, GAE, etc.
+```
 
 ---
 
